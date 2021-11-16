@@ -80,9 +80,6 @@ img {
     width: 100%;
     margin: 0;
   }
-  /* #lezioni .row>.left{
-    background-color: burlywood;
-  } */
   #lezioni .row{
     background-color: papayawhip;
   }
@@ -96,7 +93,7 @@ img {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-}
+ }
  h3{
    margin: 0;
  }
@@ -113,10 +110,10 @@ img {
    height: 100px;
  }
  #why .row img{
-   padding: 0;
-   object-fit:calc(100% + 30px);
-}
-#why .row h1{
+   padding: 15px;
+   height: 70px;
+  }
+  #why .row h1{
   padding-top: 10px;
-}
-}
+  }
+  }
