@@ -116,4 +116,10 @@ img {
   #why .row h1{
   padding-top: 10px;
   }
+  #why .row hr{
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+  }
   }
