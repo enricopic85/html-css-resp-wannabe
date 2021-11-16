@@ -123,3 +123,85 @@ img {
     margin-top: 0;
   }
   }
+
+
+@media screen and (min-width: 577px) and (max-width: 1199px){
+  #lezioni .row>.left,
+  #lezioni .row>.right,#steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,.row{
+    width: 100%;
+    margin: 0;
+  }
+  img{
+    animation-name: minchiata;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+  }
+}
+@keyframes minchiata{
+      from{
+        transform: rotate(0);
+      }
+      from{
+        transform: rotate(1turn);
+      }
+}
+
+
+
+
+/* @media  screen and (max-width: 576px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right,#steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,.row{
+    width: 100%;
+    margin: 0;
+  }
+  #lezioni .row{
+    background-color: papayawhip;
+  }
+  #why .row{
+    background-color: peru;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+ h3{
+   margin: 0;
+ }
+ .container.grey{
+   padding-top: 5px;
+ }
+ #lezioni .row h1{
+   padding-top: 10px;
+ }
+ #steps img{
+   padding-top: 20px;
+ }
+ img{
+   height: 100px;
+ }
+ #why .row img{
+   padding: 15px;
+   height: 70px;
+  }
+  #why .row h1{
+  padding-top: 10px;
+  }
+  #why .row hr{
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  }
+} */
